@@ -6,7 +6,8 @@ This is simple project which will describle how to use Kubernetes in Google Clou
 
   - register your google cloud account;
   - enable Kubernetes Engine API, Container Registry API;
-  - enable for your vm instance access to Cloud APIs.
+  - enable for your vm instance access to Cloud APIs;
+  - install Cloud SDK [Instruction](https://cloud.google.com/sdk/docs/#rpm)
 
 # Creating Kubernetes cluster
 
