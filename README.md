@@ -49,5 +49,32 @@ This is simple project which will describle how to use Kubernetes in Google Clou
   http://localhost:8001/api/v1/namespaces/kube-system/services/https:kubernetes-dashboard:/proxy/
 ```
 
+ # Kubernetes cluster
  
+  ```bash
+  [root@gcloud ~]# gcloud container clusters get-credentials cluster1 --zone us-central1-a ***************
+                   Fetching cluster endpoint and auth data.
+                   kubeconfig entry generated for cluster1.
+ ```
+ 
+ ```bash
+ [root@gcloud ~]# kubectl get nodes
+NAME                                      STATUS   ROLES    AGE     VERSION
+gke-cluster1-default-pool-64807803-kwbt   Ready    <none>   2d19h   v1.12.7-gke.10
+gke-cluster1-default-pool-64807803-zm7b   Ready    <none>   2d19h   v1.12.7-gke.10
+```
+
+```bash
+[root@gcloud ~]# kubectl get pods
+NAME                          READY   STATUS    RESTARTS   AGE
+gameoflife-64fd98b559-hltgf   1/1     Running   0          2d
+```
+
+![3](images/3.png)
+
+
+![4](images/4.png)
+
+
+# Deploying
 
