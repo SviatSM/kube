@@ -78,3 +78,15 @@ gameoflife-64fd98b559-hltgf   1/1     Running   0          2d
 
 # Deploying
 
+For deploying we will using Google’s Container Repository. Enable container registry and check permission for pushing images.
+
+  - on your working vm host build your application container image;
+  
+  - tag your local image and push to container registry.
+  
+  [Pushing and pulling images](https://cloud.google.com/container-registry/docs/pushing-and-pulling? hl=en_US&_ga=2.64090159.-1619095932.1555178622)
+
+  
+  [Build-GameOfLife](https://github.com/docclion/Build-Game-Of-Life).
+ 
+
