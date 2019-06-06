@@ -84,9 +84,9 @@ For deploying we will using Google’s Container Repository. Enable container re
   
   - tag your local image and push to container registry.
   
-  [Usefull link](https://cloud.google.com/container-registry/docs/pushing-and-pulling? hl=en_US&_ga=2.64090159.-1619095932.1555178622)
-
   
-  [Build-GameOfLife](https://github.com/docclion/Build-Game-Of-Life).
- 
+  [usefull_link](https://cloud.google.com/container-registry/docs/pushing-and-pulling?hl=en_US&_ga=2.64090159.-1619095932.1555178622)
+  
+  [Build-GameOfLife](https://github.com/docclion/Build-Game-Of-Life)
+
 
