@@ -82,11 +82,35 @@ For deploying we will using Google’s Container Repository. Enable container re
 
   - on your working vm host build your application container image;
   
+  [Build-GameOfLife](https://github.com/docclion/Build-Game-Of-Life)
+  
   - tag your local image and push to container registry.
   
-  
-  [usefull_link](https://cloud.google.com/container-registry/docs/pushing-and-pulling?hl=en_US&_ga=2.64090159.-1619095932.1555178622)
-  
-  [Build-GameOfLife](https://github.com/docclion/Build-Game-Of-Life)
+  - configure Docker's configuration file:
 
+  ```bash
+  gcloud auth configure-docker
+  ```
+  
+  [Usefull_link](https://cloud.google.com/container-registry/docs/pushing-and-pulling?hl=en_US&_ga=2.64090159.-1619095932.1555178622)
+  
+  ```bash
+  docker tag game eu.gcr.io/fit-stream-237518/game
+  ```
+  
+  ```bash
+  docker push eu.gcr.io/fit-stream-237518/game
+  ```
+  
+  ![5](images/5.png)
+  
+  
+  - run service:
+  
+  ![6](images/6.png)
+  
+  
+  
 
+  
+  
